@@ -1,0 +1,29 @@
+.nav {
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+
+  button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    border: 1px solid lightgray;
+    padding: 1rem;
+    border-radius: 0.15rem;
+    box-shadow: 2px 2px 10px rgb(73, 71, 71);
+
+    .navButton__icon {
+      padding-left: 0.5rem;
+    }
+
+    &:hover {
+      background-color: black;
+      transition: all 0.5s ease;
+      color: white;
+      border-radius: 0.15rem;
+      border: 1px solid black;
+    }
+  }
+}

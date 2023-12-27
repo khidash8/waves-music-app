@@ -1,0 +1,29 @@
+@media screen and (max-width: 768px) {
+  .nav {
+    button {
+      z-index: 10;
+    }
+  }
+
+  .songsContainer {
+    img {
+      width: 60%;
+    }
+  }
+
+  .player__time__controller {
+    width: 90%;
+  }
+
+  .player__play__controller {
+    width: 60%;
+  }
+
+  .library {
+    width: 100%;
+  }
+
+  // .player__track {
+  //   height: 1rem;
+  // }
+}

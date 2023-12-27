@@ -1,0 +1,31 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+  color: rgb(69, 65, 65);
+}
+
+.App {
+  transition: all 0.5s ease;
+}
+
+.libray__move {
+  margin-left: 30%;
+}
+
+@import "./player";
+@import "./songs";
+@import "./library";
+@import "./nav";
+@import "./mediaQuery";
